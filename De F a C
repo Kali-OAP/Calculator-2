@@ -1,0 +1,13 @@
+# Write code below 💖
+
+def celsius():
+  while True:
+    try:
+      valor = int(input("Ingrese el F: "))
+      restar = valor - 32
+      dividir = restar / 1.8
+      redondear = round(dividir)
+      print(redondear)
+      print("Ingrese un valor")
+    except ValueError:
+celsius()
