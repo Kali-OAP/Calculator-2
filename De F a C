@@ -1,5 +1,3 @@
-# Write code below 💖
-
 def celsius():
   while True:
     try:
@@ -8,6 +6,6 @@ def celsius():
       dividir = restar / 1.8
       redondear = round(dividir)
       print(redondear)
-      print("Ingrese un valor")
     except ValueError:
+      print("Ingrese un valor")
 celsius()
